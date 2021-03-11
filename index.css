@@ -83,6 +83,10 @@ a {
     margin: 1% 6%; 
 }
 
+span {
+    font-weight: bold;
+}
+
 .plan_button {
     background-color: #FF764E;
 }
@@ -142,33 +146,46 @@ h2{
 
 .insight {
     width: 30%;
-    margin: 1% auto;
+    margin: 1% auto 3%;
+    /* background-color: aqua; */
 }
 
 #fire_img {
     width: 30%;
-    
-    background-color: red;
+    margin: 0 33%;
+    /* background-color: red; */
 }
 
 #van_img {
     width: 30%;
-
+    margin: 0 33%;
 }
-
 
 #history p {
     word-spacing: .3rem;
     color: white;
     padding: 1% 0;
 }
+
+.insight p {
+    text-align: center;
+    margin: 1% auto;
+    width: 70%;
+}
+
+#bottom_buttons {
+    padding: 5%;
+    background-color: #F9E7DC;
+}
+
 /* Background Image Section*/
 
 .bg-img {
     background-image: url("assets/footer_img.jpg");
-    height: 40vh;
+    height: 33vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;
+    margin: 8% 0% 0%;
 }
 
