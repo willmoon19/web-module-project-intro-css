@@ -1,0 +1,191 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/* General Styles */
+
+html {
+    font-size: 62.5%;
+    font-family: "Roboto Mono", cursive;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1;
+    border: 1px solid gray;
+}
+
+h1 {
+    font-family: "Chelsea Market", cursive;
+    font-size: 6rem;
+}
+
+nav {
+    padding: 1%;
+    /* background-color: red; */
+}
+
+a {
+    display: inline-block;
+    color: white;
+    font-size: 2rem;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 20%;
+    padding: 1% .5%;
+    text-align: center;
+    margin: 1% 6%; 
+}
+
+span {
+    font-weight: bold;
+}
+
+.plan_button {
+    background-color: #FF764E;
+}
+
+.learn_button {
+    background-color: #5ED3EB;
+}
+
+.get_button {
+    background-color: #FFCD69;
+}
+
+.circleimage {
+    display: inline-block;
+    /* background-color: blue; */
+    width: 28%;
+    padding: 1%;
+}
+
+.circleimage img {
+    border-radius: 50%;
+}
+
+#title {
+    position: absolute;
+    display: inline-block;
+    /* background-color: aqua; */
+    text-align: center;
+    width: 60%;
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 5% auto;
+}
+
+h2{ 
+    margin: 5% auto;
+}
+
+#title p {
+    width: 58%;
+    margin: 5% auto;
+}
+
+.top_section {
+    padding: 5%;
+    
+}
+
+#history {
+    padding: 1% 2%;
+    width: 93%;
+    margin: 1% auto;
+    background-color: #DDB9A3;
+}
+
+.insight {
+    width: 30%;
+    margin: 1% auto 3%;
+    /* background-color: aqua; */
+}
+
+#fire_img {
+    width: 30%;
+    margin: 0 33%;
+    /* background-color: red; */
+}
+
+#van_img {
+    width: 30%;
+    margin: 0 33%;
+}
+
+#history p {
+    word-spacing: .3rem;
+    color: white;
+    padding: 1% 0;
+}
+
+.insight p {
+    text-align: center;
+    margin: 1% auto;
+    width: 70%;
+}
+
+#bottom_buttons {
+    padding: 5%;
+    background-color: #F9E7DC;
+}
+
+/* Background Image Section*/
+
+.bg-img {
+    background-image: url("assets/footer_img.jpg");
+    height: 33vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    margin: 8% 0% 0%;
+}
+
