@@ -52,11 +52,13 @@ table {
 
 html {
     font-size: 62.5%;
+    font-family: "Roboto Mono", cursive;
 }
 
 body {
     font-size: 1.6rem;
     line-height: 1;
+    border: 1px solid gray;
 }
 
 h1 {
@@ -64,15 +66,21 @@ h1 {
     font-size: 6rem;
 }
 
+nav {
+    padding: 1%;
+    /* background-color: red; */
+}
+
 a {
     display: inline-block;
-    margin: 2% auto;
     color: white;
-    font-size: 3rem;
-    border-radius: 10%;
+    font-size: 2rem;
+    border-radius: 10px;
     text-decoration: none;
-    width: 15%;
-    font-family: "Roboto Mono", cursive;
+    width: 20%;
+    padding: 1% .5%;
+    text-align: center;
+    margin: 1% 6%; 
 }
 
 .plan_button {
@@ -86,3 +94,81 @@ a {
 .get_button {
     background-color: #FFCD69;
 }
+
+.circleimage {
+    display: inline-block;
+    /* background-color: blue; */
+    width: 28%;
+    padding: 1%;
+}
+
+.circleimage img {
+    border-radius: 50%;
+}
+
+#title {
+    position: absolute;
+    display: inline-block;
+    /* background-color: aqua; */
+    text-align: center;
+    width: 60%;
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 5% auto;
+}
+
+h2{ 
+    margin: 5% auto;
+}
+
+#title p {
+    width: 58%;
+    margin: 5% auto;
+}
+
+.top_section {
+    padding: 5%;
+    
+}
+
+#history {
+    padding: 1% 2%;
+    width: 93%;
+    margin: 1% auto;
+    background-color: #DDB9A3;
+}
+
+.insight {
+    width: 30%;
+    margin: 1% auto;
+}
+
+#fire_img {
+    width: 30%;
+    
+    background-color: red;
+}
+
+#van_img {
+    width: 30%;
+
+}
+
+
+#history p {
+    word-spacing: .3rem;
+    color: white;
+    padding: 1% 0;
+}
+/* Background Image Section*/
+
+.bg-img {
+    background-image: url("assets/footer_img.jpg");
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
